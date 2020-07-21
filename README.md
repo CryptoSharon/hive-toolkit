@@ -1,7 +1,7 @@
 # Start package for Bulma with Pug
 
 - Based on [bulma-start](https://github.com/jgthms/bulma-start)
-- Added Pug
+- Added Pug watcher/builder.
 - Files get built into folder `dist/`.
 
 # Original README:
