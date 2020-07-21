@@ -60,7 +60,7 @@
     "url": "git+https://github.com/jgthms/bulma-start.git"
   },
   "scripts": {
-    "css-build": "node-sass _sass/main.scss dist/css/main.css",
+    "css-build": "node-sass _sass/main.sass dist/css/main.css",
     "css-deploy": "npm run css-build && npm run css-postcss",
     "css-postcss": "postcss --use autoprefixer --output dist/css/main.css dist/css/main.css",
     "css-watch": "npm run css-build -- --watch",

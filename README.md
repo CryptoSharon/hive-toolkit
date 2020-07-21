@@ -4,6 +4,17 @@
 - Added Pug watcher/builder.
 - All files (js/css/html) get built into `dist/` directory.
 
+## Instructions
+
+```
+yarn install
+yarn run start
+```
+
+Edit the `_javascript`, `_pug` and `_sass` files. (Note, this version uses `.sass`, not `.scss`. Editable on line 63 of [package.json](package.json))
+
+Files auto-build on change, but they don't auto-reload on the browser. Open your `.html` file on the browser from `/dist` directory.
+
 # Original README:
 
 # Start package for [Bulma](http://bulma.io)
