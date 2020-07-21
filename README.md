@@ -2,7 +2,7 @@
 
 - Based on [bulma-start](https://github.com/jgthms/bulma-start)
 - Added Pug watcher/builder.
-- Files get built into folder `dist/`.
+- All files (js/css/html) get built into folder `dist/`.
 
 # Original README:
 
